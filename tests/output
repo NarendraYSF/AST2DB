@@ -1,0 +1,178 @@
+Functions:
+--------------------------------------------------
+Function: add
+  Return type: int
+  Location: tests/moderate-case.cc:10:5
+  Is definition: no
+  Parameters:
+    int a
+    int b
+
+Function: printInt
+  Return type: void
+  Location: tests/moderate-case.cc:11:6
+  Is definition: no
+  Parameters:
+    int value
+
+Function: printPoint
+  Return type: void
+  Location: tests/moderate-case.cc:12:6
+  Is definition: no
+  Parameters:
+    const Point * p
+
+Function: main
+  Return type: int
+  Location: tests/moderate-case.cc:21:5
+  Is definition: yes
+
+Function: add
+  Return type: int
+  Location: tests/moderate-case.cc:51:5
+  Is definition: yes
+  Parameters:
+    int a
+    int b
+
+Function: printInt
+  Return type: void
+  Location: tests/moderate-case.cc:56:6
+  Is definition: yes
+  Parameters:
+    int value
+
+Function: printPoint
+  Return type: void
+  Location: tests/moderate-case.cc:61:6
+  Is definition: yes
+  Parameters:
+    const Point * p
+
+Function Calls:
+--------------------------------------------------
+Call: printInt
+  Location: tests/moderate-case.cc:16:5
+  Arguments: x 
+
+Call: printInt
+  Location: tests/moderate-case.cc:17:5
+  Arguments: y 
+
+Call: add
+  Location: tests/moderate-case.cc:25:15
+  Arguments: a b 
+
+Call: printInt
+  Location: tests/moderate-case.cc:29:9
+  Arguments: sum 
+
+Call: printInt
+  Location: tests/moderate-case.cc:31:9
+  Arguments:  
+
+Call: printInt
+  Location: tests/moderate-case.cc:36:9
+  Arguments: i 
+
+Call: print
+  Location: tests/moderate-case.cc:41:5
+
+Call: printPoint
+  Location: tests/moderate-case.cc:45:5
+  Arguments: p2 
+
+Call: print
+  Location: tests/moderate-case.cc:63:9
+
+Variables:
+--------------------------------------------------
+Variable: a
+  Type: int
+  Location: tests/moderate-case.cc:23:9
+
+Variable: b
+  Type: int
+  Location: tests/moderate-case.cc:24:9
+
+Variable: sum
+  Type: int
+  Location: tests/moderate-case.cc:25:9
+
+Variable: i
+  Type: int
+  Location: tests/moderate-case.cc:35:14
+
+Variable: p1
+  Type: Point
+  Location: tests/moderate-case.cc:40:11
+
+Variable: p2
+  Type: Point *
+  Location: tests/moderate-case.cc:44:12
+
+Variable References:
+--------------------------------------------------
+Reference: printInt
+  Location: tests/moderate-case.cc:16:5
+
+Reference: printInt
+  Location: tests/moderate-case.cc:17:5
+
+Reference: add
+  Location: tests/moderate-case.cc:25:15
+
+Reference: a
+  Location: tests/moderate-case.cc:25:19
+
+Reference: b
+  Location: tests/moderate-case.cc:25:22
+
+Reference: sum
+  Location: tests/moderate-case.cc:28:9
+
+Reference: printInt
+  Location: tests/moderate-case.cc:29:9
+
+Reference: sum
+  Location: tests/moderate-case.cc:29:18
+
+Reference: printInt
+  Location: tests/moderate-case.cc:31:9
+
+Reference: i
+  Location: tests/moderate-case.cc:35:21
+
+Reference: i
+  Location: tests/moderate-case.cc:35:30
+
+Reference: printInt
+  Location: tests/moderate-case.cc:36:9
+
+Reference: i
+  Location: tests/moderate-case.cc:36:18
+
+Reference: p1
+  Location: tests/moderate-case.cc:41:5
+
+Reference: p1
+  Location: tests/moderate-case.cc:44:18
+
+Reference: printPoint
+  Location: tests/moderate-case.cc:45:5
+
+Reference: p2
+  Location: tests/moderate-case.cc:45:16
+
+Reference: a
+  Location: tests/moderate-case.cc:52:12
+
+Reference: b
+  Location: tests/moderate-case.cc:52:16
+
+Reference: p
+  Location: tests/moderate-case.cc:62:9
+
+Reference: p
+  Location: tests/moderate-case.cc:63:9
+

@@ -1,6 +1,6 @@
-# Code2SQL
+# AST2DB
 
-Code2SQL uses `clang` to parse C/C++ code and stores AST node information into an SQLite database.
+AST2DB uses `clang` to parse C/C++ code and stores AST node information into an SQLite database.
 
 ## Dependencies
 - [clang](https://clang.llvm.org/)
